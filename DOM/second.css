@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+}
+
+#previous {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#next {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}

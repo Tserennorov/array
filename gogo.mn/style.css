@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.layout {
+  width: 70%;
+}
+
+/* gogo-app-header */
+
+.gogo-app-header {
+}
+
+.header-left-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-left {
+  display: flex;
+  gap: 10px;
+}
+
+.gogo-logo-image {
+  width: 119px;
+  height: 39px;
+}
+
+.header-list{
+  
+}
+
+/* gogo-app-header */

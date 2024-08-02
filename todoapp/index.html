@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todoapp</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/9cd0f99006.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="container">
+        <div class="boards" id="boards">
+          <div class="board">
+            <div class="board-header">To do <span class="count">0</span></div>
+            <div class="cards" id="todo">
+              <!-- <div class="card" draggable="true">
+                <div class="done">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="details">
+                  <div>To do</div>
+                  <div>This is a todo card</div>
+                  <div class="priority">high</div>
+                </div>
+                <div class="actions">
+                  <div class="done">
+                    <i class="fa-solid fa-x"></i>
+                  </div>
+                  <div class="done">
+                    <i class="fa-solid fa-pen"></i>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <div class="add-btn" id="add-btn">
+              <i class="fa-solid fa-plus"></i>
+              <div>Add Cart</div>
+            </div>
+          </div>
+          <div class="board">
+            <div class="board-header">
+              in progress <span class="count">0</span>
+            </div>
+            <div class="cards" id="inprogress"></div>
+            <div class="add-btn">
+              <i class="fa-solid fa-plus"></i>
+              <div>Add Cart</div>
+            </div>
+          </div>
+          <div class="board">
+            <div class="board-header">stuck<span class="count">0</span></div>
+            <div class="cards" id="stuck"></div>
+            <div class="add-btn">
+              <i class="fa-solid fa-plus"></i>
+              <div>Add Cart</div>
+            </div>
+          </div>
+          <div class="board">
+            <div class="board-header">Done<span class="count">0</span></div>
+            <div class="cards" id="done"></div>
+            <div class="add-btn">
+              <i class="fa-solid fa-plus"></i>
+              <div>Add Cart</div>
+            </div>
+          </div>
+        </div>
+        <div class="backdrop active" id="backdrop">
+          <div class="away"></div>
+          <div class="modal">
+            <form>
+              <h1>Add task</h1>
+              <div>
+                <label name="title">Title</label>
+                <input id="title" type="title" name="title" />
+                <p class="helper-text">Бөглөнө үү</p>
+              </div>
+              <div>
+                <label name="description">Description</label>
+                <textarea
+                  id="description"
+                  name="description"
+                  rows="4"
+                  cols="50"
+                ></textarea>
+                <p class="helper-text">Бөглөнө үү</p>
+              </div>
+              <div>
+                <label name="status">Status</label>
+                <select name="status" id="status">
+                  <option value="todo">To do</option>
+                  <option value="inprogress">In progress</option>
+                  <option value="stuck">Stuck</option>
+                  <option value="done">Done</option>
+                </select>
+              </div>
+              <div>
+                <label name="priority">Priority</label>
+                <select name="priority" id="priority">
+                  <option value="low">Low</option>
+                  <option value="medium">Medium</option>
+                  <option value="high">High</option>
+                </select>
+              </div>
+              <button id="submit" type="submit">Add Task</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./first.js"></script>
+  </body>
+</html>
+<!-- <div class="card" draggable="true">
+                <div class="done">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="details">
+                  <div>To do</div>
+                  <div>This is to do cart</div>
+                  <div class="priority">high</div>
+                </div>
+                <div class="actions">
+                  <div class="done">
+                    <i class="fa-solid fa-x"></i>
+                  </div>
+                  <div class="done">
+                    <i class="fa-solid fa-pen"></i>
+                  </div>
+                </div>
+              </div> -->

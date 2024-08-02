@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todoappteach</title>
+    <link rel="stylesheet" href="./second.css" />
+  </head>
+  <body>
+    <div id="boards">
+      <!-- <div class="board">
+        <div class="header">
+          <h3>To do</h3>
+          <p>1</p>
+        </div>
+        <div class="tasks"></div>
+        <button id="addNewTask"><span>+</span>Add card</button>
+      </div>
+      <div class="board"></div>
+      <div class="board"></div>
+      <div class="board"></div> -->
+    </div>
+    <div id="modalContainer">
+      <div class="layer" onclick="removeModal()"></div>
+      <div class="modal">
+        <h2>Add task</h2>
+        <div>
+          <label for="title">Title</label>
+          <input type="text" id="title" />
+        </div>
+        <div>
+          <label for="description">Description</label>
+          <textarea type="text" id="description" rows="4"></textarea>
+        </div>
+        <div>
+          <label for="status">Status</label>
+          <select name="" id="status"></select>
+        </div>
+        <div>
+          <label for="priority">Priority</label>
+          <select name="" id="priority"></select>
+        </div>
+        <button id="addNewTask">Add task</button>
+      </div>
+    </div>
+  </body>
+  <script src="second.js"></script>
+</html>

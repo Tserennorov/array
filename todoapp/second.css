@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: url(namar.jpeg) no-repeat center/cover;
+}
+
+#boards {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding-block: 120px;
+}
+
+.board {
+  width: 310px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #efecf0;
+}
+
+.header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+header h3 {
+  font-size: 20px;
+}
+
+#activeModal {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+#activeModal:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#modalContainer {
+  display: none;
+}
+
+.layer {
+  inset: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal div {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal div input,
+.modal div select {
+  padding: 8px;
+}
+
+#addNewTask {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
