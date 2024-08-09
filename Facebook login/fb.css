@@ -16,3 +16,36 @@
   padding: 12px;
   width: 300px;
 }
+
+.bigContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 300px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+}
+
+#login {
+  width: 150px;
+}
+
+#username {
+  width: 280px;
+}
+
+#password {
+  width: 280px;
+}
